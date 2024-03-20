@@ -5,8 +5,7 @@
   "main": "main.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node main.js",
-    "pm2-start": "pm2 start main.js --name my-app"
+    "start": "node main.js"
   },
   "keywords": [
     "openai",
@@ -25,7 +24,6 @@
     "chalk": "^4.1.2",
     "mrnima-openai-chatgpt-bot": "^0.1.4",
     "openai": "^3.1.0",
-    "pm2": "^5.1.0", // Add pm2 as a dependency
     "qrcode-terminal": "^0.12.0"
   },
   "directories": {
